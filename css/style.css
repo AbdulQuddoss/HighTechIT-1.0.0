@@ -116,7 +116,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-secondary) !important;
+    color: black !important;
 }
 
 .navbar .dropdown-toggle::after {
@@ -212,8 +212,8 @@
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn1 {
-    background: var(--bs-secondary);
-    color: var(--bs-dark);
+    background: var(--bs-primary);
+    color: var(--bs-white);
     opacity: 1;
     border: 0;
     border-radius: 20px;
@@ -221,7 +221,7 @@
 
 .carousel-caption .carousel-content a button.carousel-content-btn1:hover {
     background: var(--bs-primary);
-    color: #ffffff;
+    color: var(--bs-dark);
     border: 0;
     opacity: 1;
     transition: 1s;
@@ -237,7 +237,6 @@
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn2:hover {
-    background: var(--bs-secondary);
     color: var(--bs-dark);
     border: 0;
     opacity: 1;
@@ -335,7 +334,8 @@
     top: 0;
     left: 0;
     border-radius: 10px 10px 0 0;
-    background: rgba(3, 43, 243, 0.8);
+    /* background: rgba(3, 43, 243, 0.8); */
+    background: #26d48c;
     transition: .5s;
 }
 
